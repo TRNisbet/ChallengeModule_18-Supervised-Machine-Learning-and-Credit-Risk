@@ -4,9 +4,9 @@ ChallengeModule_18-Supervised-Machine-Learning-and-Credit-Risk
 
 ## Overview
 
-Use `imbalanced-learn` and `scikit-learn` libraries to build and evaluate models using resampling. 
+Use `imbalanced-learn` and `scikit-learn` libraries to build and evaluate models using resampling.
 
-Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the `RandomOverSampler` and `SMOTE` algorithms, and undersample the data using the `ClusterCentroids` algorithm. Then, you will use a combinatorial approach of over- and undersampling using the `SMOTEENN` algorithm. Next, you’ll compare two new machine learning models that reduce bias, `BalancedRandomForestClassifier` and `EasyEnsembleClassifier`, to predict credit risk. (From Module Challenge PAge_ )
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the `RandomOverSampler` and `SMOTE` algorithms, and undersample the data using the `ClusterCentroids` algorithm. Then, you will use a combinatorial approach of over- and undersampling using the `SMOTEENN` algorithm. Next, you’ll compare two new machine learning models that reduce bias, `BalancedRandomForestClassifier` and `EasyEnsembleClassifier`, to predict credit risk. (From Module Challenge Page)
 
 ## Analysis Results
 
@@ -40,14 +40,11 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![img](./images/Balanced-Random-Forest-Classifier.jpg)
 
-
-
 * Easy Ensemble AdaBoost Classifier
   * The Accuracy Score is 92.55%
 * The Imbalanced Classification Report
 
 ![img](./images/Easy-Ensemble-AdaBoost-Classifier.jpg)
-
 
 ## Summary
 
